@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": ["Read", "Grep", "Glob",
+              "Edit(./review/**)", "Write(./review/**)",
+              "Edit(./sprint/**)", "Write(./sprint/**)",
+              "Bash(cmake *)", "Bash(ctest*)", "Bash(g++ *)", "Bash(./review/**)"],
+    "deny": ["Edit(./projects/**)", "Write(./projects/**)",
+             "Edit(./sprint/LEARNED.md)", "Write(./sprint/LEARNED.md)"]
+  }
+}

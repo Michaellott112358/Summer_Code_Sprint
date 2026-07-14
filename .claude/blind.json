@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": ["Read(./sprint/**)", 
+              "Edit(./review/**)", "Write(./review/**)"],
+    "deny": ["Read(./projects/**)", "Edit(./projects/**)", "Write(./projects/**)",
+             "Edit(./sprint/LEARNED.md)", "Write(./sprint/LEARNED.md)"]
+  }
+}
+
